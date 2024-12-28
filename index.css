@@ -148,3 +148,40 @@ body {
   max-width: 100%;
   flex: 1;
 }
+
+/* MARK: random-info */
+.random-info {
+  padding-block: 6.4rem 12rem;
+}
+
+.random-info__title {
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 900;
+  color: var(--yankees-blue);
+  margin-bottom: 6.4rem;
+  text-align: center;
+}
+
+.random-info__figures {
+  display: flex;
+  gap: 3.2rem;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.figure {
+  text-align: center;
+}
+
+.figure__image {
+  min-width: 18rem;
+  border-radius: 0.8rem;
+}
+
+.figure__caption {
+  font-size: 1.6rem;
+  color: var(--yankees-blue);
+  opacity: 0.85;
+  width: 22ch;
+}
