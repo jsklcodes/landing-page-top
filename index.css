@@ -185,3 +185,30 @@ body {
   opacity: 0.85;
   width: 22ch;
 }
+
+/* MARK: testimonial */
+.testimonial {
+  padding-block: 12rem;
+  background-color: var(--bright-gray);
+  color: var(--yankees-blue);
+}
+
+.testimonial__title {
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 900;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+.testimonial__text {
+  font-size: clamp(2.4rem, 5vw, 3.6rem);
+  font-weight: 300;
+  font-style: italic;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial__author {
+  text-align: end;
+  font-size: 2rem;
+  font-weight: 700;
+}
