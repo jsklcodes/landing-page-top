@@ -240,3 +240,11 @@ body {
 .cta__subtext {
   font-size: 1.8rem;
 }
+
+/* MARK: footer */
+.footer {
+  text-align: center;
+  padding-block: 3.2rem;
+  background-color: var(--yankees-blue);
+  color: var(--bright-gray);
+}
